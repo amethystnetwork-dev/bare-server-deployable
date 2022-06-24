@@ -4,74 +4,13 @@ This repository implements the TompHTTP bare server. See the specification [here
 
 ## Usage
 
-We provide a command-line interface for creating a server.
+<a href="https://heroku.com/deploy?template=https://github.com/IDontCodee/Incognito"><img height="30px" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"><img></a>
 
-For more features, specify the `--help` option when running the CLI.
+<a href="https://github.com/IDontCodee/Incognito/wiki/About-Replit..."><img height="30px" src="https://raw.githubusercontent.com/IDontCodee/Incognito/main/deploy/replit.svg"><img></a>
 
-## Quickstart
+<a href="https://railway.app/new/template?template=https://github.com/IDontCodee/Incognito"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"><img></a>
 
-1. Install Bare Server Node globally
+## Join IDontCodee Discord
 
-```sh
-npm install --global @tomphttp/bare-server-node
-```
-
-2. Start the server
-
-```sh
-npx bare-server-node
-```
-
-Optionally start the server localhost:8080
-
-```sh
-npx bare-server-node --port 8080 --host localhost
-```
-
-## Programically create a bare server
-
-```js
-import { createServer as createHttpServer } from 'http';
-import createBareServer from '@tomphttp/bare-sever-node';
-
-const httpServer = createHttpServer();
-
-const bareServer = createBareServer('/', {
-	logErrors: false,
-	localAddress: undefined,
-	maintainer: {
-		email: 'tomphttp@sys32.dev',
-		website: 'https://github.com/tomphttp/',
-	},
-});
-
-bareServer.on('request', (req, res) => {
-	if(server.)
-});
-
-
-httpServer.on('request', (req, res) => {
-	if (bareServer.shouldRoute(req)) {
-		bareServer.routeRequest(req, res);
-	} else {
-		res.writeHead(400);
-		res.send('Not found.');
-	}
-});
-
-httpServer.on('upgrade', (req, socket, head) => {
-	if (bareServer.shouldRoute(req)) {
-		bareServer.routeUpgrade(req, socket, head);
-	} else {
-		socket.end();
-	}
-});
-
-httpServer.on('listening', () => {
-	console.log('HTTP server listening');
-});
-
-httpServer.listen({
-	port: 8080,
-});
-```
+<a class="discord-widget" href="https://discord.gg/J3VPy5Vy8x" title="Join us on Discord">
+<img src="https://invidget.switchblade.xyz/J3VPy5Vy8x?theme=light"></a>
