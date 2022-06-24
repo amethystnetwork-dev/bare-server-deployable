@@ -1,7 +1,7 @@
 {
-    "name": "Ultraviolet App",
-    "description": "Node.js Ultraviolet instance",
+    "name": "Deployable Bare Server",
+    "description": "The Bare Server implementation in NodeJS.",
     "repository": "https://github.com/titaniumnetwork-dev/ultraviolet-web-app",
     "logo": "https://github.com/titaniumnetwork-dev/Ultraviolet/blob/main/uv.png?raw=true",
-    "keywords": ["tomp", "ultraviolet"]
+    "keywords": ["tomp", "tomphttp"]
 }
