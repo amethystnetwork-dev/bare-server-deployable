@@ -1,19 +1,20 @@
 {
-  "dependencies": {
-    "bare-server-node": "github:tomphttp/bare-server-node",
-    "node-static": "^0.7.11"
-  },
   "name": "bare-server-deployable",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The Bare Server implementation in NodeJS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "node index.js"
   },
-  "keywords": [
-    "proxy"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDontCodee/bare-server-deployable.git"
+  },
+  "keywords": ["tomp", "tomphttp"],
   "author": "",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.0.2-beta-readme2",
+    "bare-server-node": "github:tomphttp/bare-server-node"
+  }
 }

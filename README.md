@@ -1,5 +1,7 @@
 <div align="center">
 
+<img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/IDontCodee/bare-server-deployable/main/logo.png">
+
 <h1>TOMP Bare Server</h1>
 
 <h3>This repository implements the TompHTTP bare server. See the specification <a href="https://github.com/tomphttp/specifications/blob/master/BareServer.md">here</a>.</h3>

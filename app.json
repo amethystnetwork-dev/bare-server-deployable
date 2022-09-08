@@ -1,7 +1,7 @@
 {
-    "name": "Deployable Bare Server",
+    "name": "Bare Server Deployable",
     "description": "The Bare Server implementation in NodeJS.",
-    "repository": "https://github.com/titaniumnetwork-dev/ultraviolet-web-app",
-    "logo": "https://github.com/titaniumnetwork-dev/Ultraviolet/blob/main/uv.png?raw=true",
+    "repository": "https://github.com/IDontCodee/bare-server-deployable",
+    "logo": "https://github.com/IDontCodee/bare-server-deployable/blob/main/logo.png?raw=true",
     "keywords": ["tomp", "tomphttp"]
 }
