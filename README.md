@@ -1,6 +1,8 @@
 <div align="center">
 
+<kbd>
 <img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/IDontCodee/bare-server-deployable/master/logo.png">
+</kbd>
 
 <h1>TOMP Bare Server</h1>
 
