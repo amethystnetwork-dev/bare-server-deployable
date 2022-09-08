@@ -11,11 +11,6 @@
 <a href="https://railway.app/new/template?template=https://github.com/IDontCodee/bare-server-deployable"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"><img></a>
 </div>
 
-## Discord Server
-
-<a class="discord-widget" href="https://discord.gg/J3VPy5Vy8x" title="Join us on Discord">
-<img src="https://invidget.switchblade.xyz/J3VPy5Vy8x?theme=light"></a>
-
 ## Usage
 
 ```bash
@@ -29,3 +24,9 @@ npm install
 npm start
 
 ```
+
+## Discord Server
+
+If you need help, you can join the Discord:
+
+[![Join us on Discord](https://invidget.switchblade.xyz/J3VPy5Vy8x?theme=light)](https://discord.gg/J3VPy5Vy8x)
