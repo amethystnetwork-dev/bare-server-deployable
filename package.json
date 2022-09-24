@@ -1,11 +1,13 @@
 {
   "name": "bare-server-deployable",
-  "version": "1.0.2",
+  "version": "1.0.4-deps1",
   "description": "The Bare Server implementation in NodeJS.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "files": [".gitignore", ".replit", "app.json", "Procfile"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IDontCodee/bare-server-deployable.git"
@@ -14,7 +16,6 @@
   "author": "",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@tomphttp/bare-server-node": "^1.0.2-beta-readme2",
-    "bare-server-node": "github:tomphttp/bare-server-node"
+    "@tomphttp/bare-server-node": "1.0.4-deps1"
   }
 }
