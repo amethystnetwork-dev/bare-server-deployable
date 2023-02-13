@@ -9,8 +9,8 @@
 <h3>This repository implements the TompHTTP bare server. See the specification <a href="https://github.com/tomphttp/specifications/blob/master/BareServer.md">here</a>.</h3>
 
 <a href="https://amethystnetwork-dev.github.io/utils/deploy/heroku?repo=bare-server-deployable"><img height="30px" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"><img></a>
-<a href="https://amethystnetwork-dev.github.io/utils/deploy/replit?repo=bare-server-deployable"><img height="30px" src="https://amethystnetwork-dev.github.io/assets/replit.svg"><img></a>
-<a href="https://railway.app/new/template?template=https://github.com/IDontCodee/bare-server-deployable"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"><img></a>
+<a href="https://amethystnetwork-dev.github.io/docs/about-replit?repo=bare-server-deployable"><img height="30px" src="https://amethystnetwork-dev.github.io/assets/replit.svg"><img></a>
+<a href="https://railway.app/new/template?template=https://github.com/amethystnetwork-dev/bare-server-deployable"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"><img></a>
 </div>
 
 ## Usage

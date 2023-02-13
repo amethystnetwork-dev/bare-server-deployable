@@ -1,12 +1,12 @@
 import createBareServer from '@tomphttp/bare-server-node';
-import http from 'http';
+import http from 'node:http';
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8080;
 
 /*
 {
 	name: 'TOMPHTTP NodeJS Bare Server Deployable',
-	repostory: 'https://github.com/IDontCodee/bare-server-deployable'
+	repostory: 'https://github.com/amethystnetwork-dev/bare-server-deployable'
 }
 */
 
@@ -18,7 +18,7 @@ server.on('request', (req, res) => {
 		bare.routeRequest(req, res);
 	} else {
         res.writeHead(400);
-		res.send('400 Bad Request');
+		res.end('400 Bad Request');
 	}
 });
 

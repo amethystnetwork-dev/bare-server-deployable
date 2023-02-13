@@ -1,7 +1,7 @@
 {
     "name": "Bare Server Deployable",
     "description": "The Bare Server implementation in NodeJS.",
-    "repository": "https://github.com/IDontCodee/bare-server-deployable",
-    "logo": "https://github.com/IDontCodee/bare-server-deployable/blob/master/logo.png?raw=true",
+    "repository": "https://github.com/amethystnetwork-dev/bare-server-deployable",
+    "logo": "https://github.com/amethystnetwork-dev/bare-server-deployable/blob/master/logo.png?raw=true",
     "keywords": ["tomp", "tomphttp"]
 }
